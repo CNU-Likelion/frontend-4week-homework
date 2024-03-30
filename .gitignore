@@ -1,0 +1,38 @@
+# Created by https://www.toptal.com/developers/gitignore/api/gradle,react,java
+# Edit at https://www.toptal.com/developers/gitignore?templates=gradle,react,java
+
+**/app.properties
+.idea
+**/.idea
+**/.gradle
+**/build
+**/data
+backend/src/main/resources/key.yml
+.vscode
+
+# Package Files #
+
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
+
+### react ###
+.DS_*
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
