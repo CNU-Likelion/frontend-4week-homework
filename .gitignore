@@ -5,7 +5,6 @@
 .idea
 **/.idea
 **/.gradle
-**/build
 **/data
 backend/src/main/resources/key.yml
 .vscode
