@@ -1,0 +1,41 @@
+:root {
+  /* 레이아웃 */
+  --mobile-width: 375px;
+  --desktop-width: 1440px;
+
+  /* 색상 */
+  /* 기본 */
+  --primary-red: hsl(0, 100%, 74%);
+  --primary-green: hsl(154, 59%, 51%);
+  /* 강조 */
+  --accent-blue: hsl(248, 32%, 49%);
+  /* 중립 */
+  --neutral-dark-blue: hsl(249, 10%, 26%);
+  --neutral-grayish-blue: hsl(246, 25%, 77%);
+
+  /* 타이포그래피 */
+  /* 본문 복사 */
+  --body-font-size: 16px;
+  /* 폰트 */
+  --font-family: 'Poppins', sans-serif;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  background: url('./components/images/bg-intro-desktop.png'),#ff7a7a;
+}
