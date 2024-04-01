@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Poppins";
+  src: url('../font/Poppins/Poppins-Medium.ttf') format('truetype');
+}
+
+.signup {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  margin: 0px 25% 0px 0px;
+}
+
+.signup_content {
+  margin: 1em;
+  padding: 1em;
+
+  background-color: #6055A5;
+  border-radius: 10px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.input {
+  margin: 10px 10px 0px 10px;
+  padding: 5px;
+}
+
+.signup_input {
+  margin: 1em;
+  padding: 1.5em;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: #FFFFFF;
+  border-radius: 10px;
+}
+
+.button {
+  margin: 10px;
+  padding: 10px;
+  background-color: #38CC8C;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+}
+
+.error {
+  margin: 0px 10px 0px 0px;
+  font-style: italic;
+  color: red;
+  font-size: 10px;
+  text-align: right;
+}
+
+.explain {
+  color: #B9B6D3;
+}

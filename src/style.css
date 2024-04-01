@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url('../');
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url(../images/bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+  font-family: "Poppins", sans-serif;
+}
+
+.content h2 {
+  margin: 0px;
+}
+
+.content p {
+  margin: 0px;
+  font-size: 16px;
+}
+
+.main {
+  display: flex;
+}
+
+.content {
+  /* font-family: "Poppins", sans-serif; */
+  color: #FFFFFF;
+}
+
+.signup {
+  font-family: "Poppins", sans-serif;
+
+}
+
+.signup_content {
+  margin: 1em;
+  padding: 1em;
+
+  background-color: #6055A5;
+  border-radius: 10px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.input {
+  width: 100%;
+
+  margin: 0px;
+}
+
+.signup_input {
+  margin: 1em;
+  padding: 1.5em;
+
+  background-color: #FFFFFF;
+  border-radius: 10px;
+}
