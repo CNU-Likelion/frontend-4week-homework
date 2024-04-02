@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Poppins";
+  src: url('../font/Poppins/Poppins-Medium.ttf') format('truetype');
+}
+
+.signup {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  margin: 0px 25% 0px 0px;
+}
+
+.signup_content {
+  margin: 1em;
+  padding: 1em;
+
+  background-color: #6055A5;
+  border-radius: 10px;
+  text-align: center;
+  color: #FFFFFF;
+
+  box-shadow: 0px 6px #DF6D6D;
+}
+
+.input {
+  margin: 10px 10px 0px 10px;
+  padding: 10px;
+  font-family: "Poppins";
+  border: 1px solid #E4E2E2;
+}
+
+.input.empty {
+  border: 2px solid #FF7A7A;
+  border-radius: 3px;
+}
+
+.signup_input {
+  margin: 1em;
+  padding: 1.5em;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: #FFFFFF;
+  border-radius: 10px;
+
+  box-shadow: 0px 6px #DF6D6D;
+}
+
+.button {
+  font-family: "Poppins";
+
+  margin: 10px;
+  padding: 10px;
+  background-color: #38CC8C;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+}
+
+.error {
+  margin: 0px 10px 0px 0px;
+  font-style: italic;
+  color: #FF7A7A;
+  font-size: 10px;
+  text-align: right;
+}
+
+.explain {
+  color: #B9B6D3;
+  font-size: 12px;
+  margin: 10px;
+}
+
+.explain a {
+  color: #FF7A7A;
+}
