@@ -106,7 +106,7 @@ function Signup() {
           className="button"
           onClick={onClickButton}
         >CLAIM YOUR FREE TRIAL</button>
-        <p className='explain'>By clicking the button, you are agreeing to our Terms and Services</p>
+        <p className='explain'>By clicking the button, you are agreeing to our <a>Terms and Services</a></p>
       </form>
     </div>
   ); 

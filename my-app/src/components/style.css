@@ -20,16 +20,19 @@
   border-radius: 10px;
   text-align: center;
   color: #FFFFFF;
+
+  box-shadow: 0px 6px #DF6D6D;
 }
 
 .input {
   margin: 10px 10px 0px 10px;
-  padding: 5px;
+  padding: 10px;
   font-family: "Poppins";
+  border: 1px solid #E4E2E2;
 }
 
 .input.empty {
-  border: 2px solid red;
+  border: 2px solid #FF7A7A;
   border-radius: 3px;
 }
 
@@ -42,6 +45,8 @@
 
   background-color: #FFFFFF;
   border-radius: 10px;
+
+  box-shadow: 0px 6px #DF6D6D;
 }
 
 .button {
@@ -58,7 +63,7 @@
 .error {
   margin: 0px 10px 0px 0px;
   font-style: italic;
-  color: red;
+  color: #FF7A7A;
   font-size: 10px;
   text-align: right;
 }
@@ -67,4 +72,8 @@
   color: #B9B6D3;
   font-size: 12px;
   margin: 10px;
+}
+
+.explain a {
+  color: #FF7A7A;
 }
