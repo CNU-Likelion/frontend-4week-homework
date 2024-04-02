@@ -1,0 +1,91 @@
+body {
+    background-color: hsl(0, 100%, 74%);
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+}
+
+.container__left, .container__right {
+    flex: 1;
+}
+
+.container__left {
+    color: white;
+}
+
+.container__left__title {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.container__left__subtitle {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.container__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__right__title {
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.container__right__login {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login__input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login__button {
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.login__terms {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.terms__link {
+    color: hsl(248, 32%, 49%);
+    text-decoration: none;
+}

@@ -1,10 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-  </head>
-  <body>
-  </body>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Registration Page</title>
+</head>
+<body>
+    <section class="container">
+        <div class="container__left">
+            <h1 class="container__left__title">Learn to code by watching others</h1>
+            <p class="container__left__subtitle">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+        </div>
+        <div class="container__right">
+            <div class="container__right__title">
+                <span class="container__right__title__front">Try it free 7 days </span>
+                <span class="container__right__title__back">then $20/mo. thereafter</span>
+            </div>
+            <form class="container__right__login">
+                <input type="text" placeholder="First name" class="login__input login__firstname" required>
+                <input type="text" placeholder="Last name" class="login__input login__lastname" required>
+                <input type="email" placeholder="Email Address" class="login__input login__email" required>
+                <input type="password" placeholder="Password" class="login__input login__password" required>
+                <button class="login__button">CLAIM YOUR FREE TRIAL</button>
+                <div class="login__terms">
+                    By clicking the button, you are agreeing to our <a href="#" class="terms__link">Terms and Services</a>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
 </html>
