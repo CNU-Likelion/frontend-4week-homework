@@ -60,7 +60,7 @@ function Signup() {
       <form className="signup_input">
         <input 
           onChange={onChangeFirstnameHandler}
-          className="input firstName" 
+          className= {`input ${ firstnameError ? 'empty' : ''} `} 
           type="text" 
           value={firstname}
           placeholder="First Name" 
@@ -69,7 +69,7 @@ function Signup() {
 
         <input 
           onChange={onChangeLastnameHandler}
-          className="input lastName" 
+          className= {`input ${ lastnameError ? 'empty' : ''} `} 
           type="text" 
           value={lastname}
           placeholder="Last Name" 
@@ -78,7 +78,7 @@ function Signup() {
 
         <input 
           onChange={onChangeEmailHandler}
-          className="input email" 
+          className= {`input ${ emailError ? 'empty' : ''} `} 
           type="email" 
           value={email}
           placeholder="Email Address" 
@@ -87,7 +87,7 @@ function Signup() {
 
         <input 
           onChange={onChangePasswordHandler}
-          className="input password" 
+          className= {`input ${ passwordError ? 'empty' : ''} `}  
           type="password" 
           value={password}
           placeholder="Password" 
