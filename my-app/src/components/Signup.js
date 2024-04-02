@@ -49,6 +49,13 @@ function Signup() {
       setPasswordError('Password cannot be empty.');
     }
   }
+  
+  const onClickButton = (e) => {
+    console.log(firstname);
+    console.log(lastname);
+    console.log(email);
+    console.log(password);
+  }
 
 
   return (
@@ -94,7 +101,11 @@ function Signup() {
         />
         {passwordError && <span className='error'>{passwordError}</span>}
           
-        <button type='submit' className="button">CLAIM YOUR FREE TRIAL</button>
+        <button 
+          type='submit' 
+          className="button"
+          onClick={onClickButton}
+        >CLAIM YOUR FREE TRIAL</button>
         <p className='explain'>By clicking the button, you are agreeing to our Terms and Services</p>
       </form>
     </div>
