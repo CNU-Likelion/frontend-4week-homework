@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: hsl(0, 100%, 74%);
+}
+
+main {
+  background: url(../../images/bg-intro-mobile.png);
+  height: 100vh;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 50px 15px;
+
+  color: white;
+}
+
+section h1 {
+  font-size: 28px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+section p {
+  margin-bottom: 30px;
+}
+
+.use_add {
+  background-color: hsl(248, 32%, 49%);
+  padding: 10px 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 0 rgba(69, 68, 68, 0.4);
+  text-align: center;
+}
+
+.use_input {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 0 rgba(69, 68, 68, 0.4);
+  gap: 10px;
+}
+
+.use_input input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(200, 196, 196);
+
+  font-weight: 700;
+  color: hsl(249, 10%, 26%);
+}
+
+.use_input button {
+  background-color: hsl(154, 59%, 51%);
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 5px 0 rgb(3, 164, 3);
+  cursor: pointer;
+
+  color: white;
+}
+
+.use_input_p {
+  margin: 10px;
+
+  color: hsl(246, 25%, 77%);
+  font-size: 12px;
+  text-align: center;
+}
+
+.use_input_p span {
+  color: hsl(0, 100%, 74%);
+  font-weight: 700;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  font: italic;
+  text-align: right;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  main {
+    background: url(../../images/bg-intro-mobile.png);
+  }
+
+  section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100vh;
+    max-width: 1000px;
+    margin: auto;
+    gap: 30px;
+  }
+
+  section h1 {
+    font-size: 36px;
+  }
+
+  section p {
+    font-size: 16px;
+  }
+}
